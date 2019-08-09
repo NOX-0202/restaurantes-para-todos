@@ -9,6 +9,7 @@ body{
 
 .icons{
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: center;
 }
 
@@ -53,6 +54,7 @@ figcaption{
 	margin-bottom: 10px;
 }
 
-select{
+select option{
 	font-size: 25px;
+	text-align: center;
 }
