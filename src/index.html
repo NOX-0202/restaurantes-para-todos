@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head><title>Restaurante para tosos | index </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<script src="https://kit.fontawesome.com/45b74d7b47.js"></script>
+</head>
+<body>
+    <header class="text-center container">
+        <img src="../img/logo.png" alt="logo" width="160" class="mb-3">
+   		<nav class="navbar navbar-custom navbar-light bg-primary rounded">
+   			<div class="navbar-item pl-5">
+   				<a href="" class="text-white h4 pl-5">
+   					Home
+   				</a>
+   			</div>
+    		<div class="navbar-item ">
+    			<a href="" class="text-white h4">
+   					Sobre
+   				</a>
+   			</div>  
+   			<div class="navbar-item pr-5">
+   				<a href="" class="text-white h4 pr-5">
+   					Contato
+   				</a>
+   			</div>			
+   		</nav>
+    </header>
+    <main class="container">
+    	<h3 class="h1 text-center">
+    		Selecione a sua deficiencia: 
+    	</h3>	
+    	<form method="post" action="recebe.php">
+	    	<div class="icons">
+	    		<figure>
+	    			<label for="obeso">
+		    			<input type="checkbox" name="obeso" id="obeso" class="d-none">
+		    			<i class="fas fa-universal-access fa-3x"></i>
+		    			<figcaption>
+		    				Obeso
+		    			</figcaption>
+	    			</label>
+	    		</figure>
+	       		<figure>
+	       			<label for="defvisu">
+	       				<input type="checkbox" name="defvisu" id="defvisu" class="d-none">
+		    			<i class='fas fa-blind fa-3x'></i>
+		    			<figcaption>
+		    				Deficiente<br>visual
+		    			</figcaption>
+	    			</label>
+	    		</figure>	
+	       		<figure>
+	       			<label for="defcad">
+	       				<input type="checkbox" name="defcad" id="defcad" class="d-none">
+		    			<i class='fab fa-accessible-icon fa-3x'></i>
+		    			<figcaption>
+		    				Deficiente
+		    			</figcaption>
+	    			</label>
+	    		</figure>	    		
+	       		<figure>
+	       			<label for="defaud">
+	       			<input type="checkbox" name="defaud" id="defaud" class="d-none">
+	    			<i class="fas fa-deaf fa-3x"></i>
+	    			<figcaption>
+	    				Deficiente <br> auditivo
+	    			</figcaption>
+	    			</label>
+	    		</figure>	    			
+	    	</div>
+	    	<div class="text-center">
+		    	<h3 class="h1">
+		    		Selecione a sua localidade: 
+		    	</h3>
+		    	<select name="localidade" class="w-80 mb-4">
+		    		
+		    		<option value="a">teste</option>
+		    		<option value="teste">madu</option>
+		    	</select><p>
+		    	<button type="submit" class="btn btn-success">Enviar</button>
+		    </div>
+    	
+    	</form>	
+    </main>	
+
+</body>
+
+    <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
+

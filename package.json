@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/NOX-0202/restaurantes-para-todos/issues"
   },
-  "homepage": "https://github.com/NOX-0202/restaurantes-para-todos#readme"
+  "homepage": "https://github.com/NOX-0202/restaurantes-para-todos#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.1",
+    "popper.js": "^1.15.0"
+  }
 }
