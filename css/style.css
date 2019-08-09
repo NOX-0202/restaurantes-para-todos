@@ -52,3 +52,7 @@ figcaption{
 	width: 70%;
 	margin-bottom: 10px;
 }
+
+select{
+	font-size: 25px;
+}
