@@ -2,19 +2,41 @@
 
 	include_once 'conexao.php';
 
-	$deficiencias = [isset($_POST["obeso"]), isset($_POST["defvisu"]), isset($_POST["defcad"]), isset($_POST["defaud"])];
 
+	$deficiencias = $_POST["def"];
 	$localidade = $_POST["localidade"];
 
-	for ($i=0; $i < count($deficiencias) ; $i++) { 
-		if ($deficiencias[$i] == "") {
-			$deficiencias[$i] = "0";
-		}else{
-			$query = "SELECT * FROM restaurantes WHERE  = $deficiencias[$i]";
+	
+	function pesquisa($resultado){
+
+		while ($row = mysqli_fetch_assoc($resultado)){
+
+			echo "teste";
+
+
 		}
+
+
 	}
 
 
-	echo count($deficiencias);
+
+
+
+
+
+	switch ($deficiencias){
+		case "obeso":
+			$query = "SELECT * FROM RESTAUTANTES WHERE deficiencia = '$deficiencias' AND local = $localidade";
+			$result = mysqli_query($conn, $query);
+			pesquisa($result);
+			break;
+		
+		case "teste":
+
+
+	}
+
+
 
 ?>

@@ -21,22 +21,24 @@ i{
 	border-radius: 100%;
 }
 
-#obeso:checked + i{
-	opacity: .5;
 
-}
 
-#defvisu:checked + i{
+#def4:checked + i{
 	opacity: .5;
 }
 
-#defcad:checked + i{
+#def2:checked + i{
 	opacity: .5;
 }
 
-#defaud:checked + i{
+#def3:checked + i{
 	opacity: .5;
 }
+
+#def:checked + i{
+	opacity: .5;
+}
+
 figcaption{
 	text-align: center;
     -webkit-touch-callout: none;  /* iPhone OS, Safari */
