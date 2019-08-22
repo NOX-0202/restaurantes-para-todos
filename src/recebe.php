@@ -1,6 +1,6 @@
 <?php
 
-	include_once 'conexao.php';
+	include_once '../conexao.php';
 
 
 	$deficiencias = $_POST["def"];
@@ -10,7 +10,7 @@
 		header("Location: index.html");
 	}
 
-	$instruction = "SELECT * FROM restaurantes WHERE";
+	$sql = "SELECT * FROM restaurantes WHERE";
 
 ?>
 
@@ -52,19 +52,19 @@
 				<?php
 					switch ($deficiencias){
 						case "obeso":
-							$query = $instruction ." obeso = '$deficiencias' AND zona = '$localidade'";
+							$query = $sql ." obeso = '$deficiencias' AND zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Obeso\"</h3> ";
 							break;
 						case "def-visu":
-							$query = $instruction ." def_visual = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." def_visual = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente visual\"</h3> ";
 							break;
 						case "cadeirante":
-							$query = $instruction ." cadeirante = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." cadeirante = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Cadeirante\"</h3> ";
 							break;
 						case "def-auditivo":
-							$query = $instruction ." def_auditivo = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." def_auditivo = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente Auditivo\"</h3> ";
 							break;
 					}

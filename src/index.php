@@ -11,26 +11,9 @@
 	<script src="https://kit.fontawesome.com/45b74d7b47.js"></script>
 </head>
 <body>
-    <header class="text-center container">
-        <img src="../img/logo.png" alt="logo" width="160" class="mb-3">
-   		<nav class="navbar navbar-custom navbar-light bg-primary rounded">
-   			<div class="navbar-item pl-5">
-   				<a href="" class="text-white h4 pl-5">
-   					Home
-   				</a>
-   			</div>
-    		<div class="navbar-item ">
-    			<a href="" class="text-white h4">
-   					Sobre
-   				</a>
-   			</div>  
-   			<div class="navbar-item pr-5">
-   				<a href="" class="text-white h4 pr-5">
-   					Contato
-   				</a>
-   			</div>			
-   		</nav>
-    </header>
+	<?php
+		require 'nav.php';
+	?>
     <main class="container">
     	<h3 class="h1 text-center">
     		Selecione a sua deficiencia: 
@@ -88,9 +71,7 @@
 		    </div>
     	</form>	
     </main>	
-
 </body>
-
     <script src="../node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="../node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
