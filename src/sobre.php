@@ -17,6 +17,9 @@
     <div class="mt-5" style="margin: 0 20%;">
         <P>Nosso portal tem a finalidadmte de prestar assistência para as pessoas com deficiencia que precisam achar um tipo de restaurante que tenha acessibilidade para as suas respectivas necessidades.</P>
         <P>Nele o Usuário encontrará qualquer tipo de restaurante em qualquer parto do Rio de Janeiro. Para qualquer tipo de problema, entre em contato com o E-mail que disponibilizamos na página de contatos. </P>
+        <div class="text-center mt-3">
+            <img src="../img/inclusion.jpg" class="rounded">
+        </div>
     </div>
    </body>
 </html>
