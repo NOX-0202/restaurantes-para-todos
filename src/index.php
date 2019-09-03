@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head><title>Restaurante para tosos | index </title>
+<head><title>Restaurante para todos | index </title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -14,7 +14,7 @@
 	<?php
 		require 'nav.php';
 	?>
-    <main class="container">
+    <main class="container mt-4">
     	<h3 class="h1 text-center">
     		Selecione a sua deficiencia: 
     	</h3>	
@@ -49,7 +49,7 @@
 	    		</figure>	    		
 	       		<figure>
 	       			<label for="def3">
-						<input type="radio" name="def" id="def3" class="d-none" value="def-auditivo">
+						<input type="radio" name="def" id="def3" class="d-none" value="def-auditi">
 						<i class="fas fa-deaf fa-3x"></i>
 						<figcaption>
 							Deficiente <br> auditivo
