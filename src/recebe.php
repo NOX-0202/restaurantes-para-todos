@@ -36,7 +36,7 @@
 							$query = $sql ." obeso = '$deficiencias' AND zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Obeso\"</h3> ";
 							break;
-						case "def-visu":
+						case "def_visual":
 							$query = $sql ." def_visual = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente visual\"</h3> ";
 							break;
@@ -44,7 +44,7 @@
 							$query = $sql ." cadeirante = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Cadeirante\"</h3> ";
 							break;
-						case "def-auditi":
+						case "def_auditi":
 							$query = $sql ." def_auditivo = '$deficiencias' AND  zona = '$localidade'";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente Auditivo\"</h3> ";
 							break;

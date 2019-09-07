@@ -31,7 +31,7 @@
 	    		</figure>
 	       		<figure>
 	       			<label for="def4">
-	       				<input type="radio" name="def" id="def4" class="d-none" value="def-visu">
+	       				<input type="radio" name="def" id="def4" class="d-none" value="def_visual">
 		    			<i class='fas fa-blind fa-3x'></i>
 		    			<figcaption>
 		    				Deficiente<br>visual
@@ -49,7 +49,7 @@
 	    		</figure>	    		
 	       		<figure>
 	       			<label for="def3">
-						<input type="radio" name="def" id="def3" class="d-none" value="def-auditi">
+						<input type="radio" name="def" id="def3" class="d-none" value="def_auditi">
 						<i class="fas fa-deaf fa-3x"></i>
 						<figcaption>
 							Deficiente <br> auditivo
