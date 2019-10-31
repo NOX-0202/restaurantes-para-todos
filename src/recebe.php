@@ -33,19 +33,19 @@
 				<?php
 					switch ($deficiencias){
 						case "obeso":
-							$query = $sql ." obeso = '$deficiencias' AND zona = '$localidade'";
+							$query = $sql ." obeso = '$deficiencias' AND zona = '$localidade' order by nome";
 							echo "<h3 class=\"h3\"> Resultados para \"Obeso\"</h3> ";
 							break;
 						case "def_visual":
-							$query = $sql ." def_visual = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." def_visual = '$deficiencias' AND  zona = '$localidade' order by nome";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente visual\"</h3> ";
 							break;
 						case "cadeirante":
-							$query = $sql ." cadeirante = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." cadeirante = '$deficiencias' AND  zona = '$localidade' order by nome";
 							echo "<h3 class=\"h3\"> Resultados para \"Cadeirante\"</h3> ";
 							break;
 						case "def_auditi":
-							$query = $sql ." def_auditivo = '$deficiencias' AND  zona = '$localidade'";
+							$query = $sql ." def_auditivo = '$deficiencias' AND  zona = '$localidade' order by nome";
 							echo "<h3 class=\"h3\"> Resultados para \"Deficiente Auditivo\"</h3> ";
 							break;
 						default:

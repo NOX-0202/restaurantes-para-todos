@@ -32,19 +32,20 @@
                 <hr style="width: 10%; background: #606060;" align="left">
 
             </div>
-            <div class="col mt-2">
-                <!-- centro -->
-                <input type="text" name="nome" placeholder="Nome*" class="w-100"><p><p>
-                <input type="email" name="email" placeholder="E-mail*" class=" w-100"><p><p>
-                <input type="text" name="assunto" placeholder="assunto" class=" w-100">
+            <form action="./email.php">
+                <div class="col mt-2">
+                    <!-- centro -->
+                    <input type="text" name="nome" placeholder="Nome*" class="w-100"><p><p>
+                    <input type="email" name="email" placeholder="E-mail*" class=" w-100"><p><p>
+                    <input type="text" name="assunto" placeholder="assunto" class=" w-100">
 
-            </div>
-            <div class="col mt-2">
-                <!-- direita -->
-                <textarea rows="5" cols="40" class="mr-5" style="resize: none;" name="msg" placeholder="Menssagem"></textarea><br>
-                <input type="submit" value="Enviar" class="p-2 btn btn-primary" style="margin-left: 55%;" onclick="alert('Dados Enviados com sucesso!')">
-
-            </div>
+                </div>
+                <div class="col mt-2">
+                    <!-- direita -->
+                    <textarea rows="5" cols="40" class="mr-5" style="resize: none;" name="msg" placeholder="Menssagem"></textarea><br>
+                    <input type="submit" value="Enviar" class="p-2 btn btn-primary" style="margin-left: 55%;" onclick="alert('Dados Enviados com sucesso!')">
+                </div>
+            </form>
              <div class="w-100"></div>
             <div class="col mt-5 mb-5">
                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.9742326485307!2d-43.33721458486654!3d-22.877410242575294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x997dd3d9d90a2f%3A0x61595da23354a011!2sLemos+De+Castro!5e0!3m2!1sen!2sbr!4v1566481087087!5m2!1sen!2sbr" height="350" frameborder="0" style="border:0" class="w-100"></iframe>
